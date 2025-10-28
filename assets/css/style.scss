@@ -1,13 +1,40 @@
-/* Navigation styling */
+---
+---
+/* custom overrides and nav styles */
+
+/* Keep your dark + full width rules */
+body {
+  background-color: #0d1117;
+  color: #c9d1d9;
+}
+
+a, a:visited {
+  color: #58a6ff;
+}
+
+/* make content wider */
+.wrapper, .container, .page, main {
+  max-width: 95% !important;
+}
+
+/* code block styling */
+code, pre {
+  background-color: #161b22;
+  color: #f0f6fc;
+  border-radius: 6px;
+}
+
+/* Nav injected by JS */
 .site-nav {
   position: absolute;
-  top: 20px;
+  top: 18px;
   right: 20px;
+  z-index: 50;
 }
 
 .site-nav a {
   color: #58a6ff;
-  margin-left: 15px;
+  margin-left: 14px;
   text-decoration: none;
   font-weight: 600;
 }

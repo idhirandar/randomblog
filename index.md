@@ -1,16 +1,30 @@
-title: "Random Tech Blog"
-description: "Linux, Networking, and DevOps Notes"
-author: "Dhirandar"
+---
+layout: default
+title: Home
+---
 
-remote_theme: pages-themes/cayman@v0.2.0
-plugins:
-  - jekyll-remote-theme
+# Welcome to My Random Tech Blog 🛠️
 
-nav_links:
-  - name: Home
-    url: /
-  - name: About
-    url: /about
-  - name: Posts
-    url: /posts
+Hey! I'm **Dhirandar**, a Linux and infrastructure enthusiast.
+
+This blog is my personal tech notebook — short posts on:
+- Linux commands and tips
+- Nginx & proxy setups
+- DevOps tools
+- Networking concepts
+
+---
+
+## Latest Posts
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <span> - {{ post.date | date: "%b %d, %Y" }}</span>
+    </li>
+  {% endfor %}
+</ul>
+
+👉 Check out my latest post below!
 
