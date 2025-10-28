@@ -1,19 +1,36 @@
 ---
-# Front matter (required by Jekyll)
 ---
 
 @import "{{ site.theme }}";
 
-.wrapper {
-  max-width: 90%;  /* makes the content wider */
-}
-
+/* ===== Custom Overrides ===== */
 body {
-  background-color: #1a1a1a;  /* dark background */
-  color: #e0e0e0;             /* light text */
+  background-color: #0d1117;
+  color: #c9d1d9;
 }
 
 a, a:visited {
   color: #58a6ff;
+}
+
+.page-header {
+  background-color: #161b22;
+  color: #ffffff;
+  border-bottom: 1px solid #30363d;
+}
+
+.wrapper {
+  max-width: 95%;
+}
+
+section {
+  background-color: transparent;
+  padding: 1rem;
+}
+
+code, pre {
+  background-color: #161b22;
+  color: #f0f6fc;
+  border-radius: 6px;
 }
 
