@@ -1,18 +1,14 @@
+title: "Random Tech Blog"
+description: "Linux, Networking, and DevOps Notes"
+author: "Dhirandar"
 
-Random Tech Blog
-Linux, Networking, and DevOps Notes
+# Use Cayman theme from GitHub Pages
+remote_theme: pages-themes/cayman@v0.2.0
 
-title: “Random Tech Blog” description: “Linux, Networking, and DevOps Notes” author: “Dhirandar”
+plugins:
+  - jekyll-remote-theme
 
-remote_theme: pages-themes/cayman@v0.2.0 plugins:
-
-    jekyll-remote-theme
-
-nav_links:
-
-    name: Home url: /
-    name: About url: /about
-    name: Posts url: /posts
-
-© 2025 Dhirandar
+# Optional, but helps with CSS rebuilds
+sass:
+  style: compressed
 
