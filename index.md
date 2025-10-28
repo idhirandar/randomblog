@@ -8,5 +8,23 @@ This blog is my personal tech notebook — short posts on:
 - DevOps tools
 - Networking concepts
 
+---
+layout: default
+title: Home
+---
+
+# Welcome to Random Blog
+
+Here are my latest posts:
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <span> - {{ post.date | date: "%b %d, %Y" }}</span>
+    </li>
+  {% endfor %}
+</ul>
+
 👉 Check out my latest post below!
 
