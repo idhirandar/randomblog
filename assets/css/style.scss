@@ -1,0 +1,19 @@
+---
+# Front matter (required by Jekyll)
+---
+
+@import "{{ site.theme }}";
+
+.wrapper {
+  max-width: 90%;  /* makes the content wider */
+}
+
+body {
+  background-color: #1a1a1a;  /* dark background */
+  color: #e0e0e0;             /* light text */
+}
+
+a, a:visited {
+  color: #58a6ff;
+}
+
