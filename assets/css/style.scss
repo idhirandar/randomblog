@@ -1,36 +1,18 @@
----
----
-
-@import "{{ site.theme }}";
-
-/* ===== Custom Overrides ===== */
-body {
-  background-color: #0d1117;
-  color: #c9d1d9;
+/* Navigation styling */
+.site-nav {
+  position: absolute;
+  top: 20px;
+  right: 20px;
 }
 
-a, a:visited {
+.site-nav a {
   color: #58a6ff;
+  margin-left: 15px;
+  text-decoration: none;
+  font-weight: 600;
 }
 
-.page-header {
-  background-color: #161b22;
-  color: #ffffff;
-  border-bottom: 1px solid #30363d;
-}
-
-.wrapper {
-  max-width: 95%;
-}
-
-section {
-  background-color: transparent;
-  padding: 1rem;
-}
-
-code, pre {
-  background-color: #161b22;
-  color: #f0f6fc;
-  border-radius: 6px;
+.site-nav a:hover {
+  text-decoration: underline;
 }
 
